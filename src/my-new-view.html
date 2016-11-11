@@ -1,0 +1,22 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/google-map/google-map.html">
+
+<dom-module id="my-new-view">
+
+	<template>
+		<style>
+			:host{
+				display:block;
+				padding: 16px;
+			}
+		</style>
+		<h1>New View</h1>
+		<google-map latitude="43.4722475" longitude="-3.8199358" api-key="1234"></google-map>
+	</template>
+
+	<script>
+		Polymer({
+			is: "my-new-view"
+		})
+	</script>
+</dom-module>
